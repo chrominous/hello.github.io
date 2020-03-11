@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Register</title>
+        <link rel="stylesheet" type="text/css" href="style2.css">
+    </head>
+
+    <body>
+        <img src="https://i.kym-cdn.com/entries/icons/facebook/000/022/254/AYO1BTXO_400x400.jpg" style="width:20%;height:20;border:0"><br>
+        <a href="shit.html"><button> go back</button></a>
+       <br>
+        <!-- Use GET, not POST -->
+        <!-- span is an inline elemenr, div is a block element, these tags are used as tools (invicible container) used for fucntionality/style in CSS-->
+        
+        <div>
+            <form method="GET">
+            Last name: <input type="text" name="lname">
+            <br>
+            First name: <input type="text" name="fname">
+            <br>
+            Email: <input type="email" required name="email"> <br>
+            Password: <input type="passworod" min="6" name=password><br>
+            Birthday: <input type="date" name="bday"> <br>
+
+            <h1>you seeing dis?</h1> 
+            Man <input type="radio" id="male" name="gender" value="male"> <br>
+            Woman<input type="radio" id="female" name = gender value= "female"><br>
+            Apache Attack Helicopter<input type="radio" id= "attack helicopter" name = gender value="attack helicopter">
+
+            <br> pets:<br>
+            <input type="checkbox" name="cat">Cat<br>
+            <input type ="checkbox" name="dog">dog<br>
+            foods: <br>
+            <select>
+                <option value="hotdog" name="hotdog">hotdog</option>
+                <option value="apple" name="apple">apple</option>
+                <option value= "testicles" name="testicles">testicles</option>
+            </select>
+            <input type="submit" value="Register">
+            <input type="reset">
+            </form>
+        </div>
+    </body>
+</html>
